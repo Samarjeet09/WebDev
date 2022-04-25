@@ -1,4 +1,18 @@
-h1{
+/* h1{
     color: blue;
     text-align: center;
+} */
+#top{
+    text-align: center;
 }
+.hello{
+    color: yellowgreen;
+}
+
+/* specificity in css
+    the order of in which it works is:
+    1.INLINE
+    2.ID
+    3.CLASS
+    4.TYPE
+*/

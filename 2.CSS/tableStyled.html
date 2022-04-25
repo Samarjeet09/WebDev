@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Table</title>
+    <style>
+      table{
+        border: 1px solid black;
+        /* this added a border on the outer ede of the table but i also want individual chizo pei bhi aaye  */
+        border-collapse: collapse;
+      }
+      /* ya toh table heads kei liye firsei karlo ya fir --> use multiple header selectors */
+      td,th{
+        border: 1px dashed black;
+        /* yeh har element kei around aagya  */
+        padding: 5px;
+      }
+      /* abhi na space aarahi hai of i want to collapse the border we use border-collapse */
+    </style>
+  </head>
+
+  <body>
+    <table>
+        <!-- this represents the entire table -->
+        <thead >
+            <!-- this represents the heading of the table -->
+            <!-- it tells like what each collum means  -->
+            <!-- th mean table heading and it basically is name of the collums -->
+            <tr>
+                <th>Oceans</th>
+                <th>Avg Depth</th>
+                <th>Max depth</th>
+            </tr>
+                <tbody>
+                <!-- this is the body of the table and here we use table row -- tr -->
+                <!-- tr is table row which adds table ki rows -->
+                <!-- td is table data point matlab row mei data add karnei kei liye -->
+                <tr>
+                    <td>Pacific Ocean</td>
+                    <td>4,289m</td>
+                    <td>10,991</td>
+                </tr>
+                <tr>
+                    <td>Atlantic</td>
+                    <td>3646 m</td>
+                    <td>8486 m</td>
+                </tr>
+
+            </tbody>
+        </thead>
+    </table>
+  </body>
+</html>

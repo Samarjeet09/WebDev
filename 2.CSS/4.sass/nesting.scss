@@ -1,0 +1,13 @@
+// it will allow us to do nesting in a easier way
+// div > p  ki bajaye this
+ div{
+     font-size: 18px;
+     p{
+         color: red;
+
+     }
+     ul{
+
+        color: chartreuse;
+     }
+ }

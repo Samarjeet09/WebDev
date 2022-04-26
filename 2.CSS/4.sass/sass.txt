@@ -1,0 +1,8 @@
+extension to css
+adds variables
+removes repeating
+
+but browsers dont understand scss
+so we need to install sass and type in terminal sass filename.scss : requiredName.css
+
+if we want to automate this process -- sass --watch filename.scss : requiredName.css

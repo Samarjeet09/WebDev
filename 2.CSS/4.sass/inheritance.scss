@@ -1,0 +1,26 @@
+%message {
+    // we have defined using % sign that this is what a mesasge ins oging to be which 
+    // extend later
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.sucess {
+    @extend %message;
+    background-color: green;
+}
+
+.alert {
+    @extend %message;
+    background-color: orangered;
+}
+
+.error {
+    @extend %message;
+    background-color: red;
+}

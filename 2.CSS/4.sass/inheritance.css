@@ -1,0 +1,22 @@
+.error, .alert, .sucess {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.sucess {
+  background-color: green;
+}
+
+.alert {
+  background-color: orangered;
+}
+
+.error {
+  background-color: red;
+}
+
+/*# sourceMappingURL=inheritance.css.map */

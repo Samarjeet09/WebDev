@@ -1,30 +1,141 @@
 body {
   color: #e8eaed;
   background-color: #202124;
-  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   text-align: left;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 500;
   position: relative;
-
+  width: 100px;
   left: 20px;
 }
 h3 {
   position: relative;
   top: 19px;
   left: 40px;
-  
+
   color: #f28b82;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 21px;
 }
-.bar{
-    position: relative;
-    top:20px;
+a {
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #e9ecef;
+  font-size: small;
+}
+#adv {
+  position: absolute;
+  top: 15px;
+  right: 3%;
+  text-align: right;
+  max-width: 200px;
+  /* padding: 10px; */
+  /* margin: 15px; */
 
-    border-bottom: 0.5px solid #3c4043;
+  /* background-color: #171717; */
+}
+#img {
+  position: absolute;
+  top: 15px;
+  right: 12%;
+  text-align: right;
+  /* margin: 15px; */
 
+  /* padding: 10px; */
+
+  /* background-color: rebeccapurple; */
+}
+.bar {
+  position: relative;
+  top: 20px;
+
+  border-bottom: 0.5px solid #3c4043;
+}
+#FindPages {
+  position: relative;
+  top: 30px;
+  left: 40px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  /* background-color: yellowgreen; */
+}
+.RightTextTop {
+  position: relative;
+  left: 800px;
+  font-size: 14px;
+  top: -33px;
+}
+
+.search {
+  /* this is the div conatineing all chize */
+  position: relative;
+  /* background-color: pink ; */
+  /* margin-bottom: 20px; */
+  left: 180px;
+  top: -30px;
+  width: 700px;
+  height: 50px;
+}
+.TextBox {
+  position: relative;
+  margin-bottom: 10px;
+  width: 550px;
+  height: 22px;
+  left: 50px;
+  top: -20px;
+  background-color: transparent;
+  border: 1px solid #5f6368;
+  color: #bdc1c6;
+  font-size: 13px;
+  padding: 1px 8px;
+}
+.TextBox:focus {
+  outline: none;
+  border-color: #8ab4f8;
+}
+.LeftText {
+  color: #bdc1c6;
+  font-size: 13px;
+  font-weight: 400;
+  position: relative;
+  left: -135px;
+  top: 10px;
+}
+.RightText {
+  color: #969ba1;
+  position: relative;
+  left: 630px;
+  top: -63px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.SpecialRightText {
+  color: #dadce0;
+  font-family: monospace;
+  font-weight: 100;
+}
+#AdvSearch {
+  background-color: #8ab4f8;
+  border: 1px solid #8ab4f8;
+  border-radius: 3px;;
+  padding: 0px 12px;
+  height: 30px;
+  
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: #202124;
+
+  position: relative;
+  left: 665px;
+  top: -20px;
+}
+#AdvSearch:hover{
+  background-color: #b8d0f6;
 }

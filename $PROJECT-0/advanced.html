@@ -8,15 +8,59 @@
     <link rel="stylesheet" href="advanced.css" />
   </head>
   <body>
+    <div><a id="img" href="image.html">Images</a></div>
+    <div><a id="adv" href="index.html">Search</a></div>
     <h2>Google</h2>
     <h3>Advanced search</h3>
     <div class="bar"></div>
     <div id="form">
+      <h6 id="FindPages">Find pages with...</h6>
+      <h6 class="RightTextTop">To do this in the search box.</h6>
+
       <form action="https://www.google.co.in/search">
         <div class="search" id="1">
-          <input type="text" name="as_q" id="AllWords" />
+          <p class="LeftText">all these words:</p>
+          <input type="text" name="as_q" id="AllWords" class="TextBox" />
+          <p class="RightText">
+            Type the important words:
+            <b class="SpecialRightText"> tri-colour rat terrier</b>
+          </p>
         </div>
-        <div class="search" id="2"><input type="text" name="as_epq" id=""></div>
+        <div class="search" id="2">
+          <p class="LeftText">this exact word or phrase:</p>
+          <input type="text" name="as_epq" id="ExactWords" class="TextBox" />
+          <p class="RightText">
+            Put exact words in quotes:
+            <b class="SpecialRightText">"rat terrier"</b>
+          </p>
+        </div>
+        <div class="search" id="3">
+          <p class="LeftText">any of these words:</p>
+          <p></p>
+          <input
+            type="text"
+            name="as_oq"
+            id="AnyOfTheseWords"
+            class="TextBox"
+          />
+          <p class="RightText">
+            Type <b class="SpecialRightText"> OR</b> between all the words you
+            want:
+            <b class="SpecialRightText">miniature OR standard</b>
+          </p>
+        </div>
+        <div class="search" id="4">
+          <p class="LeftText">none of these words:</p>
+          <input type="text" name="as_eq" id="NoneWords" class="TextBox" />
+          <p class="RightText">
+            Put a minus sign just before words that you don't want:<b
+              class="SpecialRightText"
+            >
+              -rodent, -"Jack Russell"</b
+            >
+          </p>
+        </div>
+        <input type="submit" id="AdvSearch" value="Advanced Search" />
       </form>
     </div>
   </body>

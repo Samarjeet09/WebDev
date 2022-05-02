@@ -14,4 +14,4 @@ except ZeroDivisionError:
 
 
 
-print(f"{x} divided by {Y} is {result}")
+print(f"{x} divided by {y} is {result}")
